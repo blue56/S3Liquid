@@ -1,0 +1,7 @@
+TEST TEMPLATE 123
+{% assign test = Exchange | first %}
+{% assign s = Source | first %}
+{% assign cost = Cost | where: "ResourceId", "112384287410"  %}
+{{ test.To }}
+{{ s.CostCenter }}
+Cost {{ cost.Name }}

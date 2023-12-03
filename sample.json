@@ -1,0 +1,21 @@
+{
+    "Region": "eu-north-1",
+    "Bucketname": "costhubcloud",
+    "TemplatePath": "test/template.txt",
+    "OutputPath": "test/output.json",
+    "Inputs": [
+        {
+            "Path": "test/exchangerates.json",
+            "Alias": "Exchange"
+        },
+        {
+            "Path": "test/source.json",
+            "Alias": "Source"
+        },
+        {
+            "Path": "test/costtest.json",
+            "Alias": "Cost"
+        }
+    ],
+    "Overwrite": true
+}

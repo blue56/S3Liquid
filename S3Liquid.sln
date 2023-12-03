@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3Liquid", "S3Liquid", "{81C855F3-4151-4C70-8061-7123FE2B3CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9F2B6B03-C027-4DD3-BB1A-F9DFC477FF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Liquid", "S3Liquid\src\S3Liquid\S3Liquid.csproj", "{8C5C0D8A-CA83-4E07-9613-D26B90F1D472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6A7085C4-02AA-46AC-9622-45F96784B62A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Liquid.Tests", "S3Liquid\test\S3Liquid.Tests\S3Liquid.Tests.csproj", "{ABEBD627-49E9-4737-9A33-2D74FD140834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C5C0D8A-CA83-4E07-9613-D26B90F1D472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5C0D8A-CA83-4E07-9613-D26B90F1D472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5C0D8A-CA83-4E07-9613-D26B90F1D472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5C0D8A-CA83-4E07-9613-D26B90F1D472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABEBD627-49E9-4737-9A33-2D74FD140834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABEBD627-49E9-4737-9A33-2D74FD140834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABEBD627-49E9-4737-9A33-2D74FD140834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABEBD627-49E9-4737-9A33-2D74FD140834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F2B6B03-C027-4DD3-BB1A-F9DFC477FF16} = {81C855F3-4151-4C70-8061-7123FE2B3CEE}
+		{8C5C0D8A-CA83-4E07-9613-D26B90F1D472} = {9F2B6B03-C027-4DD3-BB1A-F9DFC477FF16}
+		{6A7085C4-02AA-46AC-9622-45F96784B62A} = {81C855F3-4151-4C70-8061-7123FE2B3CEE}
+		{ABEBD627-49E9-4737-9A33-2D74FD140834} = {6A7085C4-02AA-46AC-9622-45F96784B62A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDCBCB83-EDD9-43A9-AA08-B65BC28C4139}
+	EndGlobalSection
+EndGlobal
